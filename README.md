@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a deep learning-based image classification system for identifying human diseases from medical images. The model is built using TensorFlow and Keras, leveraging transfer learning with EfficientNetB0 to classify images into multiple disease categories.
+This project implements a deep learning-based image classification system for identifying human diseases from medical images. The model is built using TensorFlow and Keras, leveraging transfer learning with EfficientNetB5 to classify images into multiple disease categories.
 
 The notebook covers the complete machine learning pipeline, including:
 
