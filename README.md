@@ -9,7 +9,7 @@ The notebook covers the complete machine learning pipeline, including:
 - Dataset preparation
 - Data augmentation
 - Train/Validation/Test split
-- Transfer learning using EfficientNetB0
+- Transfer learning using EfficientNetB5
 - Model training and evaluation
 - Disease prediction on unseen images
 
@@ -34,7 +34,7 @@ Class imbalance was handled using computed class weights during training.
 ## Model Architecture
 
 ### Base Model
-- EfficientNetB0 (Pretrained on ImageNet)
+- EfficientNetB5 (Pretrained on ImageNet)
 
 ### Additional Layers
 - Global Average Pooling Layer
@@ -55,7 +55,7 @@ Class imbalance was handled using computed class weights during training.
 
 | Parameter | Value |
 |------------|---------|
-| Model | EfficientNetB0 |
+| Model | EfficientNetB5 |
 | Epochs | 25 |
 | Learning Rate | 1e-4 |
 | Optimizer | Adam |
@@ -91,7 +91,7 @@ The trained model was evaluated on a separate test set.
 ## Features
 
 - Multi-class disease classification
-- Transfer learning with EfficientNetB0
+- Transfer learning with EfficientNetB5
 - Class imbalance handling through class weights
 - Automated dataset splitting
 - Data augmentation support
